@@ -1,12 +1,9 @@
-/**
- * @file handlers.h
- * @brief Header file containing declarations for HTTP request handlers
- */
 #ifndef HANDLERS_H
 #define HANDLERS_H
 
 #include "../models/response.h"
 #include <microhttpd.h>
+
 /**
  * @brief Handles 404 Not Found responses
  * @return Response struct with error message

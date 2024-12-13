@@ -1,7 +1,3 @@
-/**
- * @file server.h
- * @brief Header file for HTTP server functionality
- */
 #ifndef SERVER_H
 #define SERVER_H
 

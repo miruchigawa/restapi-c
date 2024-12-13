@@ -1,7 +1,3 @@
-/**
- * @file handlers.c
- * @brief Implementation of HTTP request handlers
- */
 #include "handlers.h"
 #include "../utils/json_helper.h"
 #include "../utils/version.h"

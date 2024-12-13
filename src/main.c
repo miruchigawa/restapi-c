@@ -1,7 +1,3 @@
-/**
- * @file main.c
- * @brief Main entry point for the HTTP server application
- */
 #include "server.h"
 #include <stdio.h>
 

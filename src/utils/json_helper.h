@@ -1,7 +1,3 @@
-/**
- * @file json_helper.h
- * @brief Header file for JSON manipulation utilities
- */
 #ifndef JSON_HELPER_H
 #define JSON_HELPER_H
 

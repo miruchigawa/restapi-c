@@ -1,7 +1,3 @@
-/**
- * @file server.c
- * @brief Implementation of HTTP server using libmicrohttpd
- */
 #include "server.h"
 #include "routes/router.h"
 #include <microhttpd.h>

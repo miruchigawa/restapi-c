@@ -1,7 +1,3 @@
-/**
- * @file router.c
- * @brief Implementation of HTTP request routing
- */
 #include "router.h"
 #include "../handlers/handlers.h"
 #include <string.h>
