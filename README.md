@@ -14,5 +14,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions, please contact me.
 
 - [Twitter](https://x.com/miruchigawa)
-- [Discord](https://discord.gg/mirutakahashi)
+- [Discord](https://discord.gg/HXAwkFPK5d)
 - [Email](mailto:miruchigawa@outlook.jp)
