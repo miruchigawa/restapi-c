@@ -21,5 +21,9 @@ Response route_request(const char* url, const char* method) {
         return handle_version_get();
     }
 
+    if (strcmp(path, "GET /api/nhentai/releases") == 0) {
+        return handle_nhentai_releases_get();
+    }
+
     return handle_not_found();
 } 

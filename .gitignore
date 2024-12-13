@@ -1,0 +1,9 @@
+bin/
+
+# Object files
+src/*.o
+src/lib/*.o
+src/handlers/*.o
+src/routes/*.o
+src/utils/*.o
+src/models/*.o

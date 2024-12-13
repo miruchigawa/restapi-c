@@ -19,4 +19,10 @@ Response handle_not_found(void);
  */
 Response handle_version_get(void);
 
+/**
+ * @brief Handles GET requests for nhentai releases endpoint
+ * @return Response struct with nhentai releases data
+ */
+Response handle_nhentai_releases_get(void);
+
 #endif 

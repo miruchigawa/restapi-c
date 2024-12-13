@@ -7,18 +7,12 @@
 
 #include <json-c/json.h>
 
-/**
- * @brief Creates a JSON error response
- * @param status Error status code
- * @param message Error message
- * @return Dynamically allocated string containing JSON error
+/** 
+ * @brief Creates a JSON response
+ * @param status Status code
+ * @param message Message
+ * @return JSON response
  */
-char* create_json_error(const char* status, const char* message);
-
-/**
- * @brief Creates a JSON object containing version information
- * @return Dynamically allocated string containing JSON version object
- */
-char* create_json_version(char * git_commit_hash, char * version);
+char *create_json_response(char *status, json_object *message);
 
 #endif 
