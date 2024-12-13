@@ -1,17 +1,17 @@
 CC = gcc
 CFLAGS = -Wall -I.
-LIBS = -lmicrohttpd -ljson-c
+LIBS = -lmicrohttpd -ljson-c -lcurl
 GIT_HASH := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
 CFLAGS += -DGIT_COMMIT_HASH=\"$(GIT_HASH)\"
 
-SRCS = src/main.c src/server.c src/routes/router.c src/handlers/handlers.c src/utils/json_helper.c
+SRCS = src/main.c src/server.c src/routes/router.c src/handlers/handlers.c src/utils/json_helper.c src/lib/mangadex/mangadex.c
 OBJS = $(SRCS:.c=.o)
 TARGET = bin/server
 
 WATCH_SRC = src/utils/watch.c
 WATCH_TARGET = bin/watch
 
-DEPS = src/models/response.h src/routes/router.h src/utils/version.h
+DEPS = src/models/response.h src/routes/router.h src/utils/version.h src/lib/mangadex/mangadex.h
 
 GREEN = \033[32m
 YELLOW = \033[33m

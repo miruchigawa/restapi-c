@@ -28,7 +28,7 @@ static enum MHD_Result request_handler(void *cls,
                          const char *upload_data,
                          size_t *upload_data_size,
                          void **con_cls) {
-    Response response = route_request(url, method);
+    Response response = route_request(url, method, connection);
     struct MHD_Response *mhd_response;
     int ret;
 

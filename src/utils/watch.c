@@ -88,7 +88,8 @@ int main() {
         "src/models",
         "src/routes",
         "src/utils",
-        "src/lib"
+        "src/lib",
+        "src/lib/mangadex"
     };
     
     int watch_count = sizeof(watch_paths) / sizeof(watch_paths[0]);

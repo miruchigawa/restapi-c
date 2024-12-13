@@ -7,3 +7,4 @@ src/handlers/*.o
 src/routes/*.o
 src/utils/*.o
 src/models/*.o
+src/lib/mangadex/*.o
