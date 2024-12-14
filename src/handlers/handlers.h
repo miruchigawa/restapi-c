@@ -16,16 +16,5 @@ Response handle_not_found(void);
  */
 Response handle_version_get(void);
 
-/**
- * @brief Handles GET requests for nhentai releases endpoint
- * @return Response struct with nhentai releases data
- */
-Response handle_nhentai_releases_get(struct MHD_Connection *connection);
-
-/**
- * @brief Handles GET requests for mangadex search endpoint
- * @return Response struct with mangadex search data
- */
-Response handle_mangadex_search_get(struct MHD_Connection *connection);
 
 #endif 

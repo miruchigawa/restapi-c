@@ -89,7 +89,8 @@ int main() {
         "src/routes",
         "src/utils",
         "src/lib",
-        "src/lib/mangadex"
+        "src/lib/mangadex",
+        "src/lib/nhentai"
     };
     
     int watch_count = sizeof(watch_paths) / sizeof(watch_paths[0]);

@@ -3,10 +3,6 @@
 
 #define PORT 8080
 
-/**
- * @brief Main function that starts the server
- * @return 0 on success, 1 on failure
- */
 int main() {
     if (!start_server(PORT)) {
         fprintf(stderr, "Failed to start server\n");
